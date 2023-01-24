@@ -12,7 +12,7 @@ int getNum(string text)
 
 double getDist(int x1, int y1, int z1, int x2, int y2, int z2)
 {
-    double dist = Math.Round(Math.Sqrt((x1-x2)*(x1-x2)+(y1-y2)*(y1-y2)+(z1-z2)*(z1-z2)),2);
+    double dist = Math.Round(Math.Sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2) + (z1 - z2) * (z1 - z2)), 2);
     return dist;
 }
 
@@ -27,4 +27,4 @@ int z2 = getNum("Введите z2: ");
 //Определить расстояние
 double distance = getDist(x1, y1, z1, x2, y2, z2);
 
-Console.WriteLine("Расстояние "+distance);
+Console.WriteLine("Расстояние " + distance);

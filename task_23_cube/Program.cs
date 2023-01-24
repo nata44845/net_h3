@@ -12,13 +12,13 @@ int getNum(string text)
 
 void printCube(int num)
 {
-    int i=1;
-    while (i<num)
+    int i = 1;
+    while (i < num)
     {
-        Console.Write($"{Math.Pow(i,3)}, ");
+        Console.Write($"{Math.Pow(i, 3)}, ");
         i++;
     }
-    Console.Write($"{Math.Pow(num,3)}");
+    Console.Write($"{Math.Pow(num, 3)}");
 }
 
 //Ввод данных от пользователя

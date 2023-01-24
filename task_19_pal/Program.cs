@@ -12,8 +12,8 @@ int getNum(string text)
 }
 
 void checkPalindrom(int x)
-{   
-    if (x/10000==x%10  && (x%10000)/1000 == (x%100)/10) Console.WriteLine("да");
+{
+    if (x / 10000 == x % 10 && (x % 10000) / 1000 == (x % 100) / 10) Console.WriteLine("да");
     else Console.WriteLine("нет");
 }
 
@@ -21,5 +21,5 @@ void checkPalindrom(int x)
 int num = getNum("Введите пятизначное число: ");
 
 //Количество цифр
-if (num>=10000 && num <100000) checkPalindrom(num);
+if (num >= 10000 && num < 100000) checkPalindrom(num);
 else Console.WriteLine("Число не пятизначное");
